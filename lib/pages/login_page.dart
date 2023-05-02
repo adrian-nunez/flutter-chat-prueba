@@ -76,7 +76,9 @@ class __FormState extends State<_Form> {
           ),
           BotonAzul(
             text: "Ingresa",
-            onPressed: null,
+            onPressed: () {
+              print(passCtrl.text);
+            },
           )
         ],
       ),
